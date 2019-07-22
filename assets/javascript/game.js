@@ -8,13 +8,7 @@ var resetAndStart = function () {
 
 	$(".crystals").empty();
 
-	var images = [
-            
-            'images/crystal1.jpg',
-            'images/crystal2.jpg',
-            'images/crystal3.jpg',
-			'https://www.perlesandco.co.uk/images/1644917592-moyen/im-Swarovski-1122-Rivoli-Round-Stone-18mm-Crystal-AB-Ultra-Orange.jpg',
-			]
+	var images = ["assets/images/crystal1.jpg", "assets/images/crystal2.jpeg", "assets/images/crystal3.jpg", "assets/images/crystal4.jpg"];
 	random_result = Math.floor(Math.random() * 69 ) + 30;
 
 	$("#result").html('Random Result: ' + random_result);
