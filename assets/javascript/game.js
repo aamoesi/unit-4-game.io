@@ -9,9 +9,10 @@ var resetAndStart = function () {
 	$(".crystals").empty();
 
 	var images = [
-			'https://www.colourbox.com/preview/4545062-red-crystal.jpg', 
-			'http://vignette3.wikia.nocookie.net/marvel-contestofchampions/images/1/1c/2-Star_Crystal.png/revision/latest?cb=20150825213642', 
-			'https://images-na.ssl-images-amazon.com/images/I/61UDNlqB-aL._SL1200_.jpg', 
+            
+            'images/crystal1.jpg',
+            'images/crystal2.jpg',
+            'images/crystal3.jpg',
 			'https://www.perlesandco.co.uk/images/1644917592-moyen/im-Swarovski-1122-Rivoli-Round-Stone-18mm-Crystal-AB-Ultra-Orange.jpg',
 			]
 	random_result = Math.floor(Math.random() * 69 ) + 30;
