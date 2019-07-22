@@ -8,7 +8,7 @@ var resetAndStart = function () {
 
 	$(".crystals").empty();
 
-	var images = ["assets/images/crystal1.png", "assets/images/crystal2.jpeg", "assets/images/crystal3.jpg", "assets/images/crystal4.jpg"];
+	var images = ["assets/images/crystal1.png", "assets/images/crystal2.jpg", "assets/images/crystal3.jpg", "assets/images/crystal4.jpg"];
 	random_result = Math.floor(Math.random() * 69 ) + 30;
 
 	$("#result").html('Random Result: ' + random_result);
