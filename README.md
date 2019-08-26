@@ -1,3 +1,6 @@
+link to deployment 
+https://aamoesi.github.io/unit-4-game.io/
+
 s# unit-4-game.io
 
 jQuery Assignment
